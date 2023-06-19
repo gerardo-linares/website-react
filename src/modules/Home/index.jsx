@@ -14,9 +14,7 @@ const Home = () => {
       <OurService />
       <Gallery />
       <Banner />
-      <div>
-        <h2 className="text-bold text-center text-3xl py-8">Contacto</h2>
-      </div>
+
       <Contact />
     </>
   );

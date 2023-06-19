@@ -7,6 +7,10 @@ import Valoration from "./modules/Valoration";
 import NudaProp from "./modules/NudaProp";
 import Digital from "./modules/Digital";
 import Vpo from "./modules/Vpo";
+import Seguro from "./modules/Seguro";
+import Cartera from "./modules/Cartera";
+import Certificado from "./modules/Certificado";
+import Franquicia from "./modules/Franquicia";
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
         <Route path="/valoracion" element={<Valoration />} />
         <Route path="/nudapropiedad" element={<NudaProp />} />
         <Route path="/digitalizacion" element={<Digital />} />
+        <Route path="/Seguro" element={<Seguro />} />
+        <Route path="/franquicia" element={<Franquicia />} />
+        <Route path="/cartera" element={<Cartera />} />
+        <Route path="/certificado" element={<Certificado />} />
         <Route path="/vpo" element={<Vpo />} />
         <Route path="*" element={<div>404</div>} />
       </Routes>

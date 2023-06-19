@@ -5,14 +5,16 @@ const Gallery = () => {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-            Acerca de nosotros
-            <div className="h-1 w-20 bg-red-500 rounded"></div>
+          <h1 className="sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+            Acerca de Nosotros
+            <div className="h-1 w-20 bg-primary rounded"></div>
           </h1>
           <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
+            Nos enorgullece ser una red líder en el sector, conectando a
+            compradores y vendedores de propiedades en todo el país. Nuestro
+            equipo de agentes altamente capacitados y nuestra amplia red de
+            contactos garantizan un servicio de primera clase para satisfacer
+            todas tus necesidades inmobiliarias.
           </p>
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1 p-2">

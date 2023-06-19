@@ -51,13 +51,12 @@ const Footer = () => {
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
             <li>
               <a className="text-gray-600 hover:text-gray-800">
-                Inversionistas
+                {" "}
+                Términos de uso
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
-                Términos de uso
-              </a>
+              <a className="text-gray-600 hover:text-gray-800">Franquíciete</a>
             </li>
             <li>
               <a className="text-gray-600 hover:text-gray-800">
