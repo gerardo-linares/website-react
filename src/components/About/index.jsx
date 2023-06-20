@@ -17,8 +17,8 @@ const About = () => {
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center gap-5">
             <h1 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-gray-900">
               Red Inmobiliaria
               <br className="hidden lg:inline-block " />
@@ -58,7 +58,7 @@ const About = () => {
               src="./Alcorcon.webp"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center gap-5">
             <h1 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-gray-900">
               ¿Por qué Elegirnos?
               <br className="hidden lg:inline-block " />
@@ -75,15 +75,17 @@ const About = () => {
                 agencias inmobiliarias de Madrid
               </strong>
               .<br />
-              El conocimiento del mercado inmobiliario y nuestra experiencia en
-              la venta de pisos, junto con una toma de fotografías y
-              presentación de la vivienda de la mejor manera posible son
-              cruciales. <br />
-              Cuente con la experiencia y el asesoramiento de la mejor Red
-              Inmobiliaria de Madrid para un proceso sin sobresaltos, una
-              negociación adecuada y la representación de los intereses de los
-              propietarios por encima de todo durante todo el proceso de la
-              venta, <strong>al mejor precio y plazo posible.</strong>
+              <p className="hidden md:inline-block">
+                El conocimiento del mercado inmobiliario y nuestra experiencia
+                en la venta de pisos, junto con una toma de fotografías y
+                presentación de la vivienda de la mejor manera posible son
+                cruciales. <br />
+                Cuente con la experiencia y el asesoramiento de la mejor Red
+                Inmobiliaria de Madrid para un proceso sin sobresaltos, una
+                negociación adecuada y la representación de los intereses de los
+                propietarios por encima de todo durante todo el proceso de la
+                venta, <strong>al mejor precio y plazo posible.</strong>
+              </p>
             </p>
           </div>
         </div>

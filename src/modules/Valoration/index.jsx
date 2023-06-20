@@ -5,7 +5,13 @@ import FormServices from "../../components/FormServices";
 const Valoration = () => {
   return (
     <main>
-      <HeroService image={"./valoracion.webp"} />
+      <HeroService
+        image={"./valoracion.webp"}
+        title={"Valoración Gratuita"}
+        description={
+          "La valoración gratuita de inmuebles. Para que el cliente pueda saber el valor real de su vivienda en el mercado."
+        }
+      />
       <div className="mt-[100px]">
         <h1 className="text-center text-3xl font-bold">
           TAZA TU PROPIERDAD EN 3 SIMPLES PASOS

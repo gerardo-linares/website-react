@@ -14,7 +14,7 @@ const OurService = () => {
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
-              Les ofrecemos
+              Les Ofrecemos
             </h1>
             <div className="h-1 w-20 bg-primary rounded"></div>
           </div>

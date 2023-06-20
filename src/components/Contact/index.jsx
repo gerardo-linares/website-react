@@ -11,12 +11,22 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font relative" id="Contacto">
-      <h1 className="pl-5 sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-        Contacto
-        <div className="h-1 w-20 bg-primary rounded"></div>
-      </h1>
-      <div className="absolute inset-0 bg-gray-300 top-20">
+    <section
+      className="text-gray-600 body-font relative bg-slate-50"
+      id="Contacto"
+    >
+      <div className="container m-auto px-5 pt-8  ">
+        <h1 className=" sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+          Contacto
+          <div className="h-1 w-20 bg-primary rounded"></div>
+        </h1>
+        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+          ¿Buscando la propiedad perfecta? Déjanos tus datos de contacto y nos
+          comunicaremos contigo enseguida.
+        </p>
+      </div>
+
+      <div className="absolute inset-0 bg-gray-300 top-40">
         <iframe
           width="100%"
           height="100%"
