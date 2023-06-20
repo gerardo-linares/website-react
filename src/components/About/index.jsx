@@ -5,15 +5,15 @@ import "aos/dist/aos.css";
 const About = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800, // Duración de la animación en milisegundos
-      offset: 200, // Desplazamiento (en píxeles) desde el borde superior del elemento para activar la animación
+      duration: 800,
+      offset: 200,
     });
   }, []);
 
   return (
-    <section className="container m-auto" id="Nosotros">
+    <section className="container m-auto">
       <article
-        className="text-gray-600 body-font  bg-slate-50 aos"
+        className="text-gray-600 body-font bg-slate-50 aos"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -29,7 +29,7 @@ const About = () => {
             <p className="mb-8 leading-relaxed">
               Más de 25 años de servicio ininterrumpido al cliente hacen de
               nuestra gestión un marca de identidad, cuya principal actividad se
-              centra en el <strong> asesoramiento constante</strong> a nuestros
+              centra en el <strong>asesoramiento constante</strong> a nuestros
               clientes, en la administración de sus inmuebles y en la
               realización de todo tipo de{" "}
               <strong>operaciones inmobiliarias</strong>.
@@ -64,28 +64,27 @@ const About = () => {
               <br className="hidden lg:inline-block " />
             </h1>
             <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-              En Red Valore estaremos encantados de poder ayudarle
+              En <span className="text-primary font-semibold">Red Valore</span>{" "}
+              estaremos encantados de poder ayudarle
             </h1>
             <p className="mb-8 leading-relaxed">
               <strong>
-                {" "}
                 Especializados en la comercialización de inmuebles y gestiones
                 de venta, así como en el análisis de inversiones inmobiliarias.
                 Nos hemos ganado el prestigio de estar entre las mejores
-                agencias inmobiliarias de Madrid
+                agencias inmobiliarias de Madrid.
               </strong>
-              .<br />
-              <p className="hidden md:inline-block">
-                El conocimiento del mercado inmobiliario y nuestra experiencia
-                en la venta de pisos, junto con una toma de fotografías y
-                presentación de la vivienda de la mejor manera posible son
-                cruciales. <br />
-                Cuente con la experiencia y el asesoramiento de la mejor Red
-                Inmobiliaria de Madrid para un proceso sin sobresaltos, una
-                negociación adecuada y la representación de los intereses de los
-                propietarios por encima de todo durante todo el proceso de la
-                venta, <strong>al mejor precio y plazo posible.</strong>
-              </p>
+              <br />
+              El conocimiento del mercado inmobiliario y nuestra experiencia en
+              la venta de pisos, junto con una toma de fotografías y
+              presentación de la vivienda de la mejor manera posible son
+              cruciales.
+              <br />
+              Cuente con la experiencia y el asesoramiento de la mejor Red
+              Inmobiliaria de Madrid para un proceso sin sobresaltos, una
+              negociación adecuada y la representación de los intereses de los
+              propietarios por encima de todo durante todo el proceso de la
+              venta, <strong>al mejor precio y plazo posible.</strong>
             </p>
           </div>
         </div>

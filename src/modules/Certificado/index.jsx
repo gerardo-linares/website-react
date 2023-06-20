@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const Certificado = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./certificado.webp"}
         title={"Certificado Energético"}
@@ -34,7 +34,7 @@ const Certificado = () => {
       </h1>
 
       <FormServices />
-    </div>
+    </main>
   );
 };
 

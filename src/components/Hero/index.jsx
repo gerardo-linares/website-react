@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 const Hero = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800, // Duración de la animación en milisegundos
-      offset: 200, // Desplazamiento (en píxeles) desde el borde superior del elemento para activar la animación
+      duration: 800,
+      offset: 200,
     });
   }, []);
 

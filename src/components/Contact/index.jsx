@@ -5,28 +5,30 @@ import "aos/dist/aos.css";
 const Contact = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800, // Duración de la animación en milisegundos
-      offset: 200, // Desplazamiento (en píxeles) desde el borde superior del elemento para activar la animación
+      duration: 800,
+      offset: 200,
     });
   }, []);
 
   return (
     <section
-      className="text-gray-600 body-font relative bg-slate-50"
+      className="text-gray-600 body-font relative bg-slate-50 mt-36 pt-2"
       id="Contacto"
     >
-      <div className="container m-auto px-5 pt-8  ">
-        <h1 className=" sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-          Contacto
-          <div className="h-1 w-20 bg-primary rounded"></div>
-        </h1>
-        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+      <div className="container m-auto flex flex-wrap w-full mb-20 p-5 md:px-12">
+        <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
+            Contacto
+          </h1>
+          <div className="h-1 w-20 bg-primary rounded "></div>
+        </div>
+        <p className="lg:w-1/2 w-full  text-gray-500 text-xl">
           ¿Buscando la propiedad perfecta? Déjanos tus datos de contacto y nos
           comunicaremos contigo enseguida.
         </p>
       </div>
 
-      <div className="absolute inset-0 bg-gray-300 top-40">
+      <div className="absolute inset-0 bg-gray-300 top-52 md:top-40">
         <iframe
           width="100%"
           height="100%"
@@ -45,7 +47,7 @@ const Contact = () => {
       </div>
 
       <div
-        className="container px-5 py-24 mx-auto flex aos"
+        className="container px-5 py-10 mx-auto flex aos"
         data-aos="fade-right"
         data-aos-delay="200"
       >
@@ -79,7 +81,7 @@ const Contact = () => {
               htmlFor="message"
               className="leading-7 text-sm text-gray-600"
             >
-              Messageclass
+              Mensaje
             </label>
             <textarea
               id="message"
@@ -91,8 +93,7 @@ const Contact = () => {
             Enviar
           </button>
           <p className="text-xs text-gray-500 mt-3">
-            Chicharrones blog helvetica normcore iceland tousled brook viral
-            artisan.
+            Déjanos tus datos y nos pondremos en contacto contigo
           </p>
         </div>
       </div>

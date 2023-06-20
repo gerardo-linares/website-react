@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const Digital = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./digital.webp"}
         title={"Digitalización de Activos"}
@@ -12,7 +12,7 @@ const Digital = () => {
           "Apostamos por las nuevas tecnologías y la digitalización de activos inmobiliarios"
         }
       />
-      <section classNameName="text-gray-600 body-font">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 mx-auto flex flex-wrap">
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10  text-center">
             <div className="flex flex-col mb-10  items-center">
@@ -20,9 +20,9 @@ const Digital = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -47,9 +47,9 @@ const Digital = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -63,9 +63,9 @@ const Digital = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -91,9 +91,9 @@ const Digital = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -107,9 +107,9 @@ const Digital = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -132,9 +132,9 @@ const Digital = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -153,7 +153,7 @@ const Digital = () => {
       </section>
 
       <FormServices />
-    </div>
+    </main>
   );
 };
 

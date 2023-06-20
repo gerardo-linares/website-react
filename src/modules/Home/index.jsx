@@ -8,15 +8,14 @@ import Banner from "../../components/Banner";
 
 const Home = () => {
   return (
-    <>
+    <main>
       <Hero />
       <About />
       <OurService />
       <Gallery />
       <Banner />
-
       <Contact />
-    </>
+    </main>
   );
 };
 

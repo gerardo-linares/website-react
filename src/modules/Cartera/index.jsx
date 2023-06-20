@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const Cartera = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./cartera.webp"}
         title={"Cartera Propia"}
@@ -44,7 +44,7 @@ const Cartera = () => {
       efectiva. ¡Estamos aquí para ayudarte a encontrar tu próximo hogar!
       Regenerate response
       <FormServices />
-    </div>
+    </main>
   );
 };
 

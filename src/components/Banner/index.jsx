@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section
-      className="container-full mx-auto flex px-5 py-24 h-[600px] items-center justify-center flex-col mb-[80px]"
+      className="container-full mx-auto flex px-5 py-24 h-[600px] items-center justify-center flex-col mt-12'"
       style={{
         backgroundImage: "url(./banner.webp)",
         backgroundSize: "cover",

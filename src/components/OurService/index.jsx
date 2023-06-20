@@ -7,18 +7,21 @@ const OurService = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
-    <section className="text-gray-600 body-font" id="Servicios">
+    <section className="text-gray-600 body-font mt-20" id="Servicios">
       <div className="container px-5 pt-10 mx-auto">
-        <div className="flex flex-wrap w-full mb-20">
+        <div className="flex flex-wrap w-full mb-20 md:px-12">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
               Les Ofrecemos
             </h1>
             <div className="h-1 w-20 bg-primary rounded"></div>
           </div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+          <p className="lg:w-1/2 w-full  text-gray-500">
             Ofrecemos servicios integrales: compra, venta y alquiler de
             propiedades residenciales y comerciales. También brindamos
             tasaciones, gestión de propiedades y asistencia legal. Confía en
@@ -31,7 +34,7 @@ const OurService = () => {
             data-aos="fade-up"
             data-aos-duration="500"
           >
-            <Link to="/valoracion">
+            <Link to="/valoracion " onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] ">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -57,7 +60,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="100"
           >
-            <Link to="/nudapropiedad">
+            <Link to="/nudapropiedad" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -83,7 +86,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="200"
           >
-            <Link to="/digitalizacion">
+            <Link to="/digitalizacion" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -109,7 +112,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="300"
           >
-            <Link to="/vpo">
+            <Link to="/vpo" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -138,7 +141,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="400"
           >
-            <Link to="/certificado">
+            <Link to="/certificado" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] ">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -164,7 +167,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="500"
           >
-            <Link to="/cartera">
+            <Link to="/cartera" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -190,7 +193,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="600"
           >
-            <Link to="/seguro">
+            <Link to="/seguro" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -216,7 +219,7 @@ const OurService = () => {
             data-aos-duration="500"
             data-aos-delay="700"
           >
-            <Link to="/franquicia">
+            <Link to="/franquicia" onClick={() => window.scrollTo(0, 0)}>
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
                 <img
                   className="h-40 rounded md:w-full w-[450px] object-cover object-center mb-6"

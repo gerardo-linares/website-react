@@ -14,7 +14,7 @@ import Franquicia from "./modules/Franquicia";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -29,7 +29,7 @@ function App() {
         <Route path="*" element={<div>404</div>} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

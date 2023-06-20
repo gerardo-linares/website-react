@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const Franquicia = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./franquicia.jpg"}
         title={"Franquicias Red Valore"}
@@ -39,7 +39,7 @@ const Franquicia = () => {
         ponerte en contacto con nosotros
       </h1>
       <FormServices />
-    </div>
+    </main>
   );
 };
 

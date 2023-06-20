@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const NudaProp = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./nudaprop.webp"}
         title={"Nuda Propiedad"}
@@ -12,7 +12,7 @@ const NudaProp = () => {
           "¿Te gustaría vender tu piso y seguir viviendo en él de por vida?"
         }
       />
-      <section classNameName="text-gray-600 body-font">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10  text-center">
             <div className="flex flex-col mb-10  items-center">
@@ -20,9 +20,9 @@ const NudaProp = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -49,9 +49,9 @@ const NudaProp = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -65,9 +65,9 @@ const NudaProp = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -103,9 +103,9 @@ const NudaProp = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -119,9 +119,9 @@ const NudaProp = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-6 h-6"
                   viewBox="0 0 24 24"
                 >
@@ -160,9 +160,9 @@ const NudaProp = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -176,7 +176,7 @@ const NudaProp = () => {
       </section>
 
       <FormServices />
-    </div>
+    </main>
   );
 };
 

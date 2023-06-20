@@ -3,7 +3,7 @@ import HeroService from "../../components/HeroServices";
 import FormServices from "../../components/FormServices";
 const Vpo = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./vpo.webp"}
         title={"Vivienda de protección oficial"}
@@ -105,7 +105,7 @@ const Vpo = () => {
       </section>
 
       <FormServices />
-    </div>
+    </main>
   );
 };
 

@@ -4,7 +4,7 @@ import FormServices from "../../components/FormServices";
 
 const Seguro = () => {
   return (
-    <div>
+    <main>
       <HeroService
         image={"./seguro.jpg"}
         title={"Seguro de Alquiler"}
@@ -49,7 +49,7 @@ const Seguro = () => {
       ayudarte a garantizar una experiencia positiva y segura para ti y tus
       propiedades.
       <FormServices />
-    </div>
+    </main>
   );
 };
 
