@@ -18,22 +18,20 @@ const Vpo = () => {
           </h1>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 md:w-1/3 flex">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-secondary mb-4 flex-shrink-0">
                 <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                  fill="red"
                   className="w-6 h-6"
-                  viewBox="0 0 24 24"
                 >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  <path d="M272 0H396.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V336c0 26.5-21.5 48-48 48H272c-26.5 0-48-21.5-48-48V48c0-26.5 21.5-48 48-48zM48 128H192v64H64V448H256V416h64v48c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48z" />
                 </svg>
               </div>
               <div className="flex-grow pl-6">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                  Shooting Stars
+                  Certificado de Adquisición
                 </h2>
                 <p className="leading-relaxed text-base">
                   Copia de la escritura o título público de adquisición de la
@@ -42,24 +40,20 @@ const Vpo = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3 flex">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-secondary mb-4 flex-shrink-0">
                 <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                  fill="red"
                   className="w-6 h-6"
-                  viewBox="0 0 24 24"
                 >
-                  <circle cx="6" cy="6" r="3"></circle>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  <path d="M0 96C0 60.7 28.7 32 64 32H196.1c19.1 0 37.4 7.6 50.9 21.1L289.9 96H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16H286.6c-10.6 0-20.8-4.2-28.3-11.7L213.1 87c-4.5-4.5-10.6-7-17-7H64z" />
                 </svg>
               </div>
               <div className="flex-grow pl-6">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                  The Catalyzer
+                  Certificado de Calificación Definitiva de VPO
                 </h2>
                 <p className="leading-relaxed text-base">
                   Nº de expediente de calificación definitiva de VPO, o copia de
@@ -68,23 +62,20 @@ const Vpo = () => {
               </div>
             </div>
             <div className="p-4 md:w-1/3 flex">
-              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+              <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-secondary mb-4 flex-shrink-0">
                 <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 576 512"
+                  fill="red"
                   className="w-6 h-6"
-                  viewBox="0 0 24 24"
                 >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
+                  <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 256h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
                 </svg>
               </div>
               <div className="flex-grow pl-6">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                  Neptune
+                  Identificación Oficial
                 </h2>
                 <p className="leading-relaxed text-base">
                   Copia del DNI/NIF del titular/es de la vivienda.

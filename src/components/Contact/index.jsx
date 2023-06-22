@@ -15,7 +15,7 @@ const Contact = () => {
       className="text-gray-600 body-font relative bg-slate-50 mt-36 pt-2"
       id="Contacto"
     >
-      <div className="container m-auto flex flex-wrap w-full mb-20 p-5 md:px-12">
+      <div className="container mx-auto flex flex-wrap w-full mb-20 p-5 md:px-12">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
           <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
             Contacto

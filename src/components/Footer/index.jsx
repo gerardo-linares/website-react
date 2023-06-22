@@ -73,7 +73,7 @@ const Footer = () => {
           <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 text-center md:text-left">
             MADRID, ESPAÑA
           </h2>
-          <nav className="list-none flex flex-col gap-2 text-center md:text-left m-auto">
+          <nav className="list-none flex flex-col gap-2 text-center md:text-left">
             <li className="flex items-center gap-2 justify-center md:justify-start ">
               <HiOutlineGlobeEuropeAfrica className="text-3xl" />
               <a className="text-gray-600 hover:text-gray-800 item ">

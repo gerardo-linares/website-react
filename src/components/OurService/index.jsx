@@ -35,7 +35,7 @@ const OurService = () => {
             data-aos-duration="500"
           >
             <Link to="/valoracion " onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] ">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between ">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./valoracion.webp"
@@ -51,6 +51,9 @@ const OurService = () => {
                   La valoración gratuita de inmuebles. Para que el cliente pueda
                   saber el valor real de su vivienda en el mercado.
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -61,7 +64,7 @@ const OurService = () => {
             data-aos-delay="100"
           >
             <Link to="/nudapropiedad" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./nudaprop.webp"
@@ -77,6 +80,9 @@ const OurService = () => {
                   ¿Te gustaría vender tu piso y seguir viviendo en él de por
                   vida?
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -87,7 +93,7 @@ const OurService = () => {
             data-aos-delay="200"
           >
             <Link to="/digitalizacion" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./digital.webp"
@@ -103,6 +109,9 @@ const OurService = () => {
                   Apostamos por las nuevas tecnologías y la digitalización de
                   activos inmobiliarios.
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -113,7 +122,7 @@ const OurService = () => {
             data-aos-delay="300"
           >
             <Link to="/vpo" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./vpo.webp"
@@ -129,6 +138,9 @@ const OurService = () => {
                   Gestión y tramitación de la descalificación y autorización de
                   venta de Viviendas Protegidas.
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -142,7 +154,7 @@ const OurService = () => {
             data-aos-delay="400"
           >
             <Link to="/certificado" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] ">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between ">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./certificado.webp"
@@ -158,6 +170,9 @@ const OurService = () => {
                   La valoración gratuita de inmuebles. Para que el cliente pueda
                   saber el valor real de su vivienda en el mercado.
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -168,7 +183,7 @@ const OurService = () => {
             data-aos-delay="500"
           >
             <Link to="/cartera" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./cartera.webp"
@@ -184,6 +199,9 @@ const OurService = () => {
                   ¿Te gustaría vender tu piso y seguir viviendo en él de por
                   vida?
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -194,7 +212,7 @@ const OurService = () => {
             data-aos-delay="600"
           >
             <Link to="/seguro" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./seguro.webp"
@@ -210,6 +228,9 @@ const OurService = () => {
                   Apostamos por las nuevas tecnologías y la digitalización de
                   activos inmobiliarios
                 </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
+                </p>
               </div>
             </Link>
           </div>
@@ -220,7 +241,7 @@ const OurService = () => {
             data-aos-delay="700"
           >
             <Link to="/franquicia" onClick={() => window.scrollTo(0, 0)}>
-              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px]">
+              <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded md:w-full w-[450px] object-cover object-center mb-6"
                   src="./franquicia.jpg"
@@ -234,6 +255,9 @@ const OurService = () => {
                 </h2>
                 <p className="leading-relaxed text-base">
                   Expande tu Negocio Inmobiliario con Nosotros
+                </p>
+                <p className="leading-relaxed text-primary text-center">
+                  Más Info...
                 </p>
               </div>
             </Link>
