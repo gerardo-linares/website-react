@@ -12,8 +12,8 @@ const OurService = () => {
   }, []);
 
   return (
-    <section className="text-gray-600 body-font mt-20" id="Servicios">
-      <div className="container px-5 pt-10 mx-auto">
+    <section className="text-gray-600 body-font md:py-10" id="Servicios">
+      <div className="container px-5 pt-10 mt-5 mx-auto">
         <div className="flex flex-wrap w-full mb-20 md:px-12">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900">
@@ -51,7 +51,7 @@ const OurService = () => {
                   La valoración gratuita de inmuebles. Para que el cliente pueda
                   saber el valor real de su vivienda en el mercado.
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -80,7 +80,7 @@ const OurService = () => {
                   ¿Te gustaría vender tu piso y seguir viviendo en él de por
                   vida?
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -109,7 +109,7 @@ const OurService = () => {
                   Apostamos por las nuevas tecnologías y la digitalización de
                   activos inmobiliarios.
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -138,7 +138,7 @@ const OurService = () => {
                   Gestión y tramitación de la descalificación y autorización de
                   venta de Viviendas Protegidas.
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -170,7 +170,7 @@ const OurService = () => {
                   La valoración gratuita de inmuebles. Para que el cliente pueda
                   saber el valor real de su vivienda en el mercado.
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -199,7 +199,7 @@ const OurService = () => {
                   ¿Te gustaría vender tu piso y seguir viviendo en él de por
                   vida?
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -228,7 +228,7 @@ const OurService = () => {
                   Apostamos por las nuevas tecnologías y la digitalización de
                   activos inmobiliarios
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -256,7 +256,7 @@ const OurService = () => {
                 <p className="leading-relaxed text-base">
                   Expande tu Negocio Inmobiliario con Nosotros
                 </p>
-                <p className="leading-relaxed text-primary text-center">
+                <p className="leading-relaxed text-primary text-center opacity-60">
                   Más Info...
                 </p>
               </div>
@@ -264,6 +264,7 @@ const OurService = () => {
           </div>
         </div>
       </div>
+      <hr className="w-1/2 mx-auto mt-20" />
     </section>
   );
 };

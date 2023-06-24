@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <section className="text-gray-600 body-font mt-20" id="Nosotros">
+    <section className="text-gray-600 body-font mt-5" id="Nosotros">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap w-full mb-20 md:px-12">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
