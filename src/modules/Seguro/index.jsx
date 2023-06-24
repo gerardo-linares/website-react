@@ -7,6 +7,7 @@ const Seguro = () => {
     <main>
       <HeroService
         image={"./seguro.jpg"}
+        alt={"house and key image"}
         title={"Seguro de Alquiler"}
         description={
           "Dos tipos de seguro para darte la solución más efectiva en materia de alquiler."

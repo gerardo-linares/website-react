@@ -7,6 +7,7 @@ const Digital = () => {
     <main>
       <HeroService
         image={"./digital.webp"}
+        alt={"digital house image"}
         title={"Digitalización de Activos"}
         description={
           "Apostamos por las nuevas tecnologías y la digitalización de activos inmobiliarios"

@@ -8,6 +8,7 @@ const Valoration = () => {
       <HeroService
         image={"./valoracion.webp"}
         title={"Valoración Gratuita"}
+        alt={"house on table and a key"}
         description={
           "La valoración gratuita de inmuebles. Para que el cliente pueda saber el valor real de su vivienda en el mercado."
         }

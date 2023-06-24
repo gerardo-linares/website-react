@@ -7,6 +7,7 @@ const Cartera = () => {
     <main>
       <HeroService
         image={"./cartera.webp"}
+        alt={"laptop with digital houses"}
         title={"Cartera Propia"}
         description={
           "Una Base de datos y cartera de clientes propia, ambas en constante actualización"

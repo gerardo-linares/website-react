@@ -7,6 +7,7 @@ const Certificado = () => {
     <main>
       <HeroService
         image={"./certificado.webp"}
+        alto={"energy certificate image"}
         title={"Certificado Energético"}
         description={
           "Certificado de Eficiencia Energética gratuito para todos nuestos clientes"

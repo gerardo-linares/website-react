@@ -11,7 +11,10 @@ const Footer = () => {
     <footer className="text-gray-600 body-font border-t-2">
       <div className="container px-5 py-24 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-4">
         <div className="flex flex-col text-center md:text-left">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a
+            href="/"
+            className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          >
             <span className="text-xl text-primary">Red Valore &#174; </span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
@@ -23,35 +26,27 @@ const Footer = () => {
             LES OFRECEMOS
           </h2>
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
-            <li>
-              <a
-                href="/valoracion"
-                className="text-gray-600 hover:text-gray-800"
-              >
-                Valoración Gratuita
-              </a>
-            </li>
-            <li>
-              <a
-                href="/nudapropiedad"
-                className="text-gray-600 hover:text-gray-800"
-              >
-                Nuda propiedad
-              </a>
-            </li>
-            <li>
-              <a
-                href="/digitalizacion"
-                className="text-gray-600 hover:text-gray-800"
-              >
-                Digitalización de activos
-              </a>
-            </li>
-            <li>
-              <a href="/vpo" className="text-gray-600 hover:text-gray-800">
-                Viviendas VPO
-              </a>
-            </li>
+            <a href="/valoracion" className="text-gray-600 hover:text-gray-800">
+              Valoración Gratuita
+            </a>
+
+            <a
+              href="/nudapropiedad"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              Nuda propiedad
+            </a>
+
+            <a
+              href="/digitalizacion"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              Digitalización de activos
+            </a>
+
+            <a href="/vpo" className="text-gray-600 hover:text-gray-800">
+              Viviendas VPO
+            </a>
           </nav>
         </div>
         <div className="flex flex-col space-y-2">
@@ -59,30 +54,22 @@ const Footer = () => {
             TÉRMINOS DE USO
           </h2>
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                {" "}
-                Términos de uso
-              </a>
-            </li>
-            <li>
-              <a
-                href="/franquicia"
-                className="text-gray-600 hover:text-gray-800"
-              >
-                Franquíciete
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Política de privacidad
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Trabaja con nosotros
-              </a>
-            </li>
+            <p className="text-gray-600 hover:text-gray-800 cursor-pointer">
+              {" "}
+              Términos de uso
+            </p>
+
+            <a href="/franquicia" className="text-gray-600 hover:text-gray-800">
+              Franquíciete
+            </a>
+
+            <p className="text-gray-600 hover:text-gray-800 cursor-pointer">
+              Política de privacidad
+            </p>
+
+            <p className="text-gray-600 hover:text-gray-800 cursor-pointer">
+              Trabaja con nosotros
+            </p>
           </nav>
         </div>
         <div className="flex flex-col space-y-2">
@@ -90,30 +77,30 @@ const Footer = () => {
             MADRID, ESPAÑA
           </h2>
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
-            <li className="flex items-center gap-2 justify-center md:justify-start ">
+            <div className="flex items-center gap-2 justify-center md:justify-start ">
               <HiOutlineGlobeEuropeAfrica className="text-3xl" />
-              <a className="text-gray-600 hover:text-gray-800 item ">
+              <p className="text-gray-600 hover:text-gray-800 item ">
                 direccion@redvalore.es
-              </a>
-            </li>
-            <li className="flex items-center gap-2 justify-center md:justify-start">
+              </p>
+            </div>
+            <div className="flex items-center gap-2 justify-center md:justify-start">
               <HiOutlineDevicePhoneMobile className="text-3xl" />
-              <a className="text-gray-600 hover:text-gray-800">
+              <p className="text-gray-600 hover:text-gray-800">
                 656270067 / 917234697
-              </a>
-            </li>
-            <li className="flex items-center gap-2 justify-center md:justify-start">
+              </p>
+            </div>
+            <div className="flex items-center gap-2 justify-center md:justify-start">
               <HiOutlineMap className="text-3xl" />
-              <a className="text-gray-600 hover:text-gray-800">
+              <p className="text-gray-600 hover:text-gray-800">
                 Calle aviador zorita 7 , Madrid CP:28020
-              </a>
-            </li>
-            <li className="flex items-center gap-2 justify-center md:justify-start">
+              </p>
+            </div>
+            <div className="flex items-center gap-2 justify-center md:justify-start">
               <HiOutlineClock className="text-3xl" />
-              <a className="text-gray-600 hover:text-gray-800">
+              <p className="text-gray-600 hover:text-gray-800">
                 Lunes a viernes 10 a 14hs y 17 a 20hs
-              </a>
-            </li>
+              </p>
+            </div>
           </nav>
         </div>
       </div>

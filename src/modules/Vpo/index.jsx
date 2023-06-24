@@ -6,6 +6,7 @@ const Vpo = () => {
     <main>
       <HeroService
         image={"./vpo.webp"}
+        alt={"house and hands image"}
         title={"Vivienda de protección oficial"}
         description={
           "NOS ENCARGAMOS DE GESTIONAR LA DESCALIFICACION Y AUTORIZACION DE TU VIVIENDA DE PROTECCION OFICIAL"

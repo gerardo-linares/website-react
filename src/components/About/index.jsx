@@ -37,8 +37,8 @@ const About = () => {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded"
-              alt="hero"
+              className="object-cover object-center rounded w-full h-full"
+              alt="Comandante zorita real state image"
               src="./Comandante4.webp"
             />
           </div>
@@ -53,8 +53,8 @@ const About = () => {
         <div className="container mx-auto flex px-5 py-10 mt-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
-              className="object-cover object-center rounded"
-              alt="hero"
+              className="object-cover object-center rounded w-full h-full"
+              alt="Alcorcon nort real state image"
               src="./Alcorcon.webp"
             />
           </div>

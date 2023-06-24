@@ -7,6 +7,7 @@ const NudaProp = () => {
     <main>
       <HeroService
         image={"./nudaprop.webp"}
+        alt={"two grandfathers image"}
         title={"Nuda Propiedad"}
         description={
           "¿Te gustaría vender tu piso y seguir viviendo en él de por vida?"

@@ -7,6 +7,7 @@ const Franquicia = () => {
     <main>
       <HeroService
         image={"./franquicia.jpg"}
+        alt={"tree of houses image"}
         title={"Franquicias Red Valore"}
         description={"Expande tu Negocio Inmobiliario con Nosotros"}
       />

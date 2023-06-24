@@ -1,12 +1,12 @@
 import React from "react";
 
-const HeroService = ({ image, title, description }) => {
+const HeroService = ({ image, title, description, alt }) => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container  mx-auto flex px-5 items-center justify-center flex-col ">
         <img
           className="w-full h-[500px] object-cover object-center rounded mt-[120px]"
-          alt="hero"
+          alt={alt}
           src={image}
         />
         <div className="text-center lg:w-2/3 w-full">

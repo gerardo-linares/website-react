@@ -39,7 +39,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./valoracion.webp"
-                  alt="content"
+                  alt="image of a house and key"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -68,7 +68,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./nudaprop.webp"
-                  alt="content"
+                  alt="image of a two grandfathers"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -97,7 +97,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./digital.webp"
-                  alt="content"
+                  alt="image of a digital house"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -126,7 +126,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./vpo.webp"
-                  alt="content"
+                  alt="image of a protected house"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -158,7 +158,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./certificado.webp"
-                  alt="content"
+                  alt="energy certificate image"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -187,7 +187,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src="./cartera.webp"
-                  alt="content"
+                  alt="image of a laptop with houses"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
@@ -245,7 +245,7 @@ const OurService = () => {
                 <img
                   className="h-40 rounded md:w-full w-[450px] object-cover object-center mb-6"
                   src="./franquicia.jpg"
-                  alt="content"
+                  alt="image of a tree with houses"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
