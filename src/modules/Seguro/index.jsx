@@ -13,7 +13,7 @@ const Seguro = () => {
           "Dos tipos de seguro para darte la solución más efectiva en materia de alquiler."
         }
       />
-      <section className="container mx-auto">
+      <section className="container mx-auto px-5">
         <h2 className="text-center">
           {" "}
           En Red Valore, entendemos lo importante que es para ti proteger tu
@@ -28,7 +28,7 @@ const Seguro = () => {
               <div className="rounded-lg h-64 overflow-hidden justify-center flex">
                 <img
                   alt="content"
-                  className="object-cover h-full w-1/2"
+                  className="object-cover h-full "
                   src="./seguro1.webp"
                 />
               </div>
@@ -79,7 +79,7 @@ const Seguro = () => {
               <div className="rounded-lg h-64 overflow-hidden justify-center flex">
                 <img
                   alt="content"
-                  className="object-cover h-full w-1/2"
+                  className="object-cover h-full "
                   src="./seguro2.webp"
                 />
               </div>
@@ -125,11 +125,12 @@ const Seguro = () => {
         </article>
         <p className="text-center">
           {" "}
-          En Red Valore, ofrecemos seguros de alquiler personalizados para
-          propietarios e inquilinos. Nuestros seguros brindan confianza,
-          protección y tranquilidad en tus transacciones de alquiler.
-          Contáctanos para obtener más información sobre cómo asegurar tu
-          inversión y garantizar una experiencia positiva y segura.
+          En <span className="text-primary">Red Valore</span> , ofrecemos
+          seguros de alquiler personalizados para propietarios e inquilinos.
+          Nuestros seguros brindan confianza, protección y tranquilidad en tus
+          transacciones de alquiler. Contáctanos para obtener más información
+          sobre cómo asegurar tu inversión y garantizar una experiencia positiva
+          y segura.
         </p>
       </section>
       <FormServices />

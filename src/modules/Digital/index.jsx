@@ -105,11 +105,13 @@ const Digital = () => {
             </div>
           </div>
         </div>
-        <h1 className="text-center text-xl">
-          {" "}
-          Tenemos lo que realmente necesitas…{" "}
-          <span className=" font-slogan">¡Trata con Profesionales!</span>
-        </h1>
+        <div className="container mx-auto px-5">
+          <h1 className="text-center text-xl">
+            {" "}
+            Tenemos lo que realmente necesitas…{" "}
+            <span className=" font-slogan">¡Trata con Profesionales!</span>
+          </h1>
+        </div>
       </section>
 
       <FormServices />

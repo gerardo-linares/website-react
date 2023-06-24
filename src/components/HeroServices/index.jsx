@@ -5,7 +5,7 @@ const HeroService = ({ image, title, description, alt }) => {
     <section className="text-gray-600 body-font">
       <div className="container  mx-auto flex px-5 items-center justify-center flex-col ">
         <img
-          className="w-full h-[500px] object-cover object-center rounded mt-[120px]"
+          className="w-full  object-cover object-center rounded mt-[120px]"
           alt={alt}
           src={image}
         />

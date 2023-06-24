@@ -24,10 +24,10 @@ const Franquicia = () => {
               inmobiliarias. ¡Te esperamos!
             </p>
             <span className="inline-block h-1 w-10 rounded bg-primary mt-8 mb-6"></span>
-            <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-              Red Valore
-            </h2>
-            <p className="text-primary font-slogan">Trate con Profesionales</p>
+
+            <p className="text-primary font-slogan text-3xl">
+              " Trate con Profesionales "
+            </p>
           </div>
         </div>
       </section>

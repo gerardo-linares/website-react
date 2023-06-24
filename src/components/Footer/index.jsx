@@ -10,15 +10,15 @@ const Footer = () => {
   return (
     <footer className="text-gray-600 body-font border-t-2">
       <div className="container px-5 py-24 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="flex flex-col text-center md:text-left">
+        <div className="flex flex-col text-center ">
           <a
             href="/"
-            className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+            className="flex title-font font-medium items-center  justify-center text-gray-900"
           >
-            <span className="text-xl text-primary">Red Valore &#174; </span>
+            <span className="text-2xl font-bold text-primary">Red Valore </span>
           </a>
-          <p className="mt-2 text-sm text-gray-500">
-            Red Inmobiliaria líder en Madrid
+          <p className="text-primary font-slogan text-2xl">
+            " Trate con Profesionales "
           </p>
         </div>
         <div className="flex flex-col space-y-2">
