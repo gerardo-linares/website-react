@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <HiOutlineMap className="text-3xl" />
               <p className="text-gray-600 hover:text-gray-800">
-                Calle aviador zorita 7 , Madrid CP:28020
+                Calle aviador zorita 7, Madrid CP:28020
               </p>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">

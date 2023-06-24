@@ -12,7 +12,11 @@ const FormServices = () => {
             Déjanos tus datos de contacto y nos comunicaremos contigo enseguida.
           </p>
         </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto">
+        <form
+          action="https://formsubmit.co/direccion@redvalore.es"
+          method="POST"
+          className="lg:w-1/2 md:w-2/3 mx-auto"
+        >
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
@@ -41,7 +45,7 @@ const FormServices = () => {
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="mail"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -65,9 +69,16 @@ const FormServices = () => {
               <button className="flex mx-auto text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-secondary rounded text-lg">
                 Enviar
               </button>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://redvalore.es/index.html"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a className="text-primary">direccion@redvalore.es</a>
+              <p className="text-primary">direccion@redvalore.es</p>
               <p className="leading-normal my-5">
                 Calle aviador zorita 7
                 <br />
@@ -134,7 +145,7 @@ const FormServices = () => {
               </span>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </section>
   );
