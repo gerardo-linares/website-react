@@ -8,7 +8,7 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const location = useLocation();
-
+  const phoneNumber = "+34687032601";
   const isHome = location.pathname === "/";
 
   const handleLinkClick = () => {
@@ -105,7 +105,12 @@ const Header = () => {
             </>
           )}
         </nav>
-        <button className=" hidden md:inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+        <a
+          className=" hidden md:inline-flex items-center bg-gray-100 border-0 py-1 px-3  hover:bg-gray-200 rounded text-base  hover:scale-105 transition-all duration-200"
+          href={`https://wa.me/${phoneNumber}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Chat en linea
           <svg
             fill="none"
@@ -118,7 +123,7 @@ const Header = () => {
           >
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </button>
+        </a>
 
         <button
           className="text-white text-3xl md:hidden"

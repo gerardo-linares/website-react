@@ -5,6 +5,7 @@ import Contact from "../../components/Contact";
 import OurService from "../../components/OurService";
 import About from "../../components/About";
 import Banner from "../../components/Banner";
+import WhatsApp from "../../components/WhatsApp";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Gallery />
       <Banner />
       <Contact />
+      <WhatsApp />
     </main>
   );
 };

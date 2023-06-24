@@ -13,7 +13,7 @@ const NudaProp = () => {
         }
       />
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="container px-5 py-14 mx-auto flex flex-wrap">
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10  text-center">
             <div className="flex flex-col mb-10  items-center">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-secondary mb-5">
