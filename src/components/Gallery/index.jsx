@@ -24,21 +24,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Alcorcon real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Alcorcon.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Alfredo real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Alfredo.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-full shadow-xl ">
               <img
-                alt="gallery"
+                alt="Ferrer real estate image"
                 className="w-full h-full object-cover object-center block"
                 src="./Ferrer.webp"
               />
@@ -47,21 +47,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full shadow-xl">
               <img
-                alt="gallery"
+                alt="Comandante real estate image"
                 className="w-full h-full object-cover object-center block"
                 src="/comandante1.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Mostoles real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="/Mostoles11.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Mostolos nort real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Mostoles4.webp"
               />
@@ -72,21 +72,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Alfredo east real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Alfredo2.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Legacy real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./lega2.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-full shadow-xl">
               <img
-                alt="gallery"
+                alt="Franco real estate image"
                 className="w-full h-full object-cover object-center block"
                 src="./francos.webp"
               />
@@ -95,21 +95,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-full shadow-xl">
               <img
-                alt="gallery"
+                alt="Alcorcon west real estate image"
                 className="w-full h-full object-cover object-center block"
                 src="./Alcorcon2.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Comandante zorita real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./comandante2.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Mostoles west real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Mostoles5.webp"
               />
@@ -120,21 +120,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2">
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Legacy nort real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./lega3.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="New Alcorcon real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Alcorcon3.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-full shadow-xl">
               <img
-                alt="gallery"
+                alt="New Franco real estate image"
                 className="w-full h-full object-cover object-center block"
                 src="./francos2.webp"
               />
@@ -143,21 +143,21 @@ const Gallery = () => {
           <div className="flex flex-wrap w-1/2 ">
             <div className="md:p-2 p-1 w-full ">
               <img
-                alt="gallery"
+                alt="New Comandante real state image"
                 className="w-full h-full object-cover object-center block"
                 src="./Comandante4.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Mostoles center real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Mostoles2.webp"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2 shadow-xl">
               <img
-                alt="gallery"
+                alt="Comandante center real estate image"
                 className="w-full object-cover h-full object-center block"
                 src="./Comandante3.webp"
               />

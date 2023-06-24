@@ -39,7 +39,7 @@ const Header = () => {
                 to="Inicio"
                 smooth={true}
                 duration={500}
-                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer active"
+                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer active text-lg"
                 onClick={handleLinkClick}
               >
                 Inicio
@@ -48,7 +48,7 @@ const Header = () => {
                 to="Servicios"
                 smooth={true}
                 duration={500}
-                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer "
+                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer text-lg "
                 onClick={handleLinkClick}
               >
                 Servicios
@@ -57,7 +57,7 @@ const Header = () => {
                 to="Nosotros"
                 smooth={true}
                 duration={500}
-                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer "
+                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer text-lg "
                 onClick={handleLinkClick}
               >
                 Nosotros
@@ -66,7 +66,7 @@ const Header = () => {
                 to="Contacto"
                 smooth={true}
                 duration={500}
-                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer "
+                className="p-4 border-b-2 border-primary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer text-lg"
                 onClick={handleLinkClick}
               >
                 Contacto
@@ -76,28 +76,28 @@ const Header = () => {
             <>
               <RouterLink
                 to="/"
-                className="p-4 hover:text-secondary duration-200 cursor-pointer"
+                className="p-4 hover:text-secondary duration-200 cursor-pointer text-lg"
                 onClick={handleLinkClick}
               >
                 Inicio
               </RouterLink>
               <RouterLink
                 to="/"
-                className="p-4 hover:text-secondary duration-200 cursor-pointer"
+                className="p-4 hover:text-secondary duration-200 cursor-pointer text-lg"
                 onClick={handleLinkClick}
               >
                 Servicios
               </RouterLink>
               <RouterLink
                 to="/"
-                className="p-4 hover:text-secondary duration-200 cursor-pointer"
+                className="p-4 hover:text-secondary duration-200 cursor-pointer text-lg"
                 onClick={handleLinkClick}
               >
                 Nosotros
               </RouterLink>
               <RouterLink
                 to="/"
-                className="p-4 hover:text-secondary duration-200 cursor-pointer"
+                className="p-4 hover:text-secondary duration-200 cursor-pointer text-lg"
                 onClick={handleLinkClick}
               >
                 Contacto
@@ -106,7 +106,7 @@ const Header = () => {
           )}
         </nav>
         <a
-          className=" hidden md:inline-flex items-center bg-gray-100 border-0 py-1 px-3  hover:bg-gray-200 rounded text-base  hover:scale-105 transition-all duration-200"
+          className=" hidden md:inline-flex items-center bg-gray-100 border-0 py-1 px-3  hover:bg-gray-200 rounded hover:scale-105 transition-all duration-200 text-lg"
           href={`https://wa.me/${phoneNumber}`}
           target="_blank"
           rel="noopener noreferrer"
