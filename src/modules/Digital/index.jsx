@@ -41,20 +41,9 @@ const Digital = () => {
                   en visitar tan solo a un clic en tu ordenador, tablet o
                   teléfono móvil.
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
             <div className="flex flex-col mb-10 items-center">
@@ -81,20 +70,9 @@ const Digital = () => {
                   le permitirán tener una imagen real del inmueble que está
                   buscando.
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
             <div className="flex flex-col mb-10  items-center">
@@ -119,20 +97,9 @@ const Digital = () => {
                   detalle de cada vivienda. Te ayudamos a hacerte una idea más
                   general del inmueble en el que estás interesado.
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
           </div>

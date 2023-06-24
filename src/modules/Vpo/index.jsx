@@ -83,15 +83,17 @@ const Vpo = () => {
               </div>
             </div>
           </div>
-          <h2 className="text-xl font-medium title-font text-center text-gray-900 mt-20">
-            Con todo ello podremos realizar un presupuesto ajustado, una vez
-            confirmado deberá firmarse una autorización para que se pueda
-            iniciar el procedimiento.
-            <span className="text-primary ">
+          <div>
+            <h2 className="text-xl font-medium title-font text-center text-gray-900 mt-20">
+              Con todo ello podremos realizar un presupuesto ajustado, una vez
+              confirmado deberá firmarse una autorización para que se pueda
+              iniciar el procedimiento.
+            </h2>
+            <p className="text-primary text-center font-semibold mt-5">
               {" "}
               SOLICITE INFORMACIÓN SIN COMPROMISO
-            </span>
-          </h2>
+            </p>
+          </div>
         </div>
       </section>
 

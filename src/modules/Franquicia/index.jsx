@@ -10,34 +10,26 @@ const Franquicia = () => {
         title={"Franquicias Red Valore"}
         description={"Expande tu Negocio Inmobiliario con Nosotros"}
       />
-      <h1>
-        En Red Valore, estamos emocionados de ofrecerte la oportunidad de formar
-        parte de nuestra red de franquicias inmobiliarias. Ya sea que desees
-        expandir tu negocio existente o comenzar tu propia empresa inmobiliaria,
-        nuestras franquicias te brindan un camino hacia el éxito y la
-        rentabilidad. ¿Por qué elegir una franquicia de Red Valore? Experiencia
-        y respaldo: Como parte de nuestra franquicia, tendrás acceso a nuestro
-        conocimiento y experiencia en el sector inmobiliario. Te
-        proporcionaremos la capacitación, el apoyo y las herramientas necesarias
-        para establecer y hacer crecer tu negocio de manera efectiva. Marca
-        reconocida: Red Valore es una marca consolidada y reconocida en el
-        mercado inmobiliario. Al unirte a nuestra franquicia, podrás aprovechar
-        el prestigio y la reputación de nuestra marca, lo que te ayudará a
-        atraer clientes y generar confianza en tu área de operaciones. Modelo de
-        negocio probado: Nuestro modelo de negocio ha sido desarrollado y
-        perfeccionado a lo largo de los años. Te proporcionaremos un plan de
-        negocio sólido y estrategias probadas para maximizar tus oportunidades
-        de éxito. Además, contarás con el respaldo de nuestro equipo de expertos
-        para guiarte en cada paso del camino. Amplia gama de servicios: Como
-        franquiciado de Red Valore, tendrás la oportunidad de ofrecer una amplia
-        gama de servicios inmobiliarios a tus clientes. Esto incluye la compra,
-        venta y alquiler de propiedades, asesoramiento financiero, gestión de
-        inversiones y más. Podrás adaptar tus servicios según las necesidades de
-        tu mercado local. ¿Cómo puedes obtener más información? Estamos
-        encantados de brindarte más detalles sobre nuestras franquicias y cómo
-        puedes unirte a nuestra red. Para obtener más información, no dudes en
-        ponerte en contacto con nosotros
-      </h1>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <p className="leading-relaxed text-lg">
+              Únete a Red Valore y expande tu negocio inmobiliario. Te brindamos
+              experiencia, respaldo y una marca reconocida en el mercado.
+              Nuestro modelo de negocio probado te asegura oportunidades de
+              éxito, con una amplia gama de servicios para ofrecer a tus
+              clientes. Contáctanos para obtener más información y formar parte
+              de nuestra red de franquicias inmobiliarias. ¡Te esperamos!
+            </p>
+            <span className="inline-block h-1 w-10 rounded bg-primary mt-8 mb-6"></span>
+            <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+              Red Valore
+            </h2>
+            <p className="text-primary font-slogan">Trate con Profesionales</p>
+          </div>
+        </div>
+      </section>
+
       <FormServices />
     </main>
   );

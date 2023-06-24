@@ -41,20 +41,9 @@ const NudaProp = () => {
                   tiempo libre y para aquellos que desean asegurar el bienestar
                   de sus hijos.
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
             <div className="flex flex-col mb-10 items-center">
@@ -90,20 +79,9 @@ const NudaProp = () => {
                   cuando el nudo propietario puede disponer de la totalidad de
                   la vivienda.
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
             <div className="flex flex-col mb-10  items-center">
@@ -143,20 +121,9 @@ const NudaProp = () => {
                   excepcionales de la vivienda. Solicite más información sin
                   compromiso
                 </p>
-                <a className="mt-3 text-primary inline-flex items-center">
+                <p className="mt-3 text-primary inline-flex items-center">
                   Solicita más info
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </p>
               </div>
             </div>
           </div>

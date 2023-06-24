@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container px-5 py-24 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-4">
         <div className="flex flex-col text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <span className="ml-3 text-xl">Red Valore</span>
+            <span className="text-xl text-primary">Red Valore &#174; </span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
             Red Inmobiliaria líder en Madrid
@@ -24,22 +24,33 @@ const Footer = () => {
           </h2>
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a
+                href="/valoracion"
+                className="text-gray-600 hover:text-gray-800"
+              >
                 Valoración Gratuita
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a
+                href="/nudapropiedad"
+                className="text-gray-600 hover:text-gray-800"
+              >
                 Nuda propiedad
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a
+                href="/digitalizacion"
+                className="text-gray-600 hover:text-gray-800"
+              >
                 Digitalización de activos
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Viviendas VPO</a>
+              <a href="/vpo" className="text-gray-600 hover:text-gray-800">
+                Viviendas VPO
+              </a>
             </li>
           </nav>
         </div>
@@ -49,21 +60,26 @@ const Footer = () => {
           </h2>
           <nav className="list-none flex flex-col gap-2 text-center md:text-left">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
                 {" "}
                 Términos de uso
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Franquíciete</a>
+              <a
+                href="/franquicia"
+                className="text-gray-600 hover:text-gray-800"
+              >
+                Franquíciete
+              </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
                 Política de privacidad
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">
+              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
                 Trabaja con nosotros
               </a>
             </li>
@@ -115,7 +131,11 @@ const Footer = () => {
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start gap-4">
-            <a className="text-red-500">
+            <a
+              href="https://www.facebook.com/redinmobiliariavalore/"
+              target="_blank"
+              className="text-red-500"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -127,7 +147,11 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-red-500">
+            <a
+              href="https://twitter.com/redvalore"
+              target="_blank"
+              className="ml-3 text-red-500"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -139,7 +163,11 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-red-500">
+            <a
+              href="https://www.instagram.com/redvalore/"
+              target="_blank"
+              className="ml-3 text-red-500"
+            >
               <svg
                 fill="none"
                 stroke="currentColor"
