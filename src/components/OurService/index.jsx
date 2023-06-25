@@ -215,7 +215,7 @@ const OurService = () => {
               <div className="bg-gray-100 p-6 rounded-lg md:min-h-[400px] max-w-[490px] flex flex-col justify-between">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="./seguro.webp"
+                  src="./seguro1.jpg"
                   alt="content"
                 />
                 <h3 className="tracking-widest text-primary text-xs font-medium title-font">

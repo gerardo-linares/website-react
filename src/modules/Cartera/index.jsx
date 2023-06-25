@@ -3,6 +3,7 @@ import HeroService from "../../components/HeroServices";
 import FormServices from "../../components/FormServices";
 
 const Cartera = () => {
+  const phoneNumber = "+34687032601";
   return (
     <main>
       <HeroService
@@ -82,9 +83,13 @@ const Cartera = () => {
                 adecuada para ti.
               </p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg">
+                <a
+                  href={`https://wa.me/${phoneNumber}`}
+                  target="_blank"
+                  className="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg"
+                >
                   Quiero Acceder
-                </button>
+                </a>
               </div>
             </div>
           </div>
