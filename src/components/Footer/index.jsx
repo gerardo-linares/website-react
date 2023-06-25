@@ -106,12 +106,12 @@ const Footer = () => {
       </div>
       <div className="bg-gray-100 h-[80px] flex items-center">
         <div className="container mx-auto py- px-5 flex flex-wrap  flex-col-reverse sm:flex-row items-center sm:px-20 gap-2">
-          <p className="text-gray-500 text-center sm:text-left">
-            © 2023 GLinares —
+          <p className="text-gray-800 text-center sm:text-left">
+            © 2023 —
             <a
               href="https://gerardolinares.com.ar/"
               rel="noopener noreferrer"
-              className="text-gray-600 ml-1"
+              className="text-gray-800 ml-1"
               target="_blank"
             >
               @GLinares

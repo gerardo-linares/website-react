@@ -41,9 +41,9 @@ const OurService = () => {
                   src="./valoracion.webp"
                   alt="image of a house and key"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Valoración Gratuita
                 </h2>
@@ -70,9 +70,9 @@ const OurService = () => {
                   src="./nudaprop.webp"
                   alt="image of a two grandfathers"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Nuda Propiedad
                 </h2>
@@ -99,9 +99,9 @@ const OurService = () => {
                   src="./digital.webp"
                   alt="image of a digital house"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Digitalización de Activos
                 </h2>
@@ -128,9 +128,9 @@ const OurService = () => {
                   src="./vpo.webp"
                   alt="image of a protected house"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Viviendas VPO
                 </h2>
@@ -160,9 +160,9 @@ const OurService = () => {
                   src="./certificado.webp"
                   alt="energy certificate image"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Certificado Energético
                 </h2>
@@ -189,9 +189,9 @@ const OurService = () => {
                   src="./cartera.webp"
                   alt="image of a laptop with houses"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Cartera Propia
                 </h2>
@@ -218,9 +218,9 @@ const OurService = () => {
                   src="./seguro1.jpg"
                   alt="content"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Seguros de Alquiler
                 </h2>
@@ -247,9 +247,9 @@ const OurService = () => {
                   src="./franquicia.jpg"
                   alt="image of a tree with houses"
                 />
-                <h3 className="tracking-widest text-primary text-xs font-medium title-font">
+                <h2 className="tracking-widest text-primary text-xs font-medium title-font">
                   RED
-                </h3>
+                </h2>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
                   Franquicias Red Valore
                 </h2>
