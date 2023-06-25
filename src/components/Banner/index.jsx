@@ -1,13 +1,13 @@
 import React from "react";
-import bannerImage from "../../assets/banner1.jpg";
+import bannerImage from "../../assets/banner.jpg";
 const Banner = () => {
   return (
     <section
-      className="container-full mx-auto flex px-5 py-24 h-[450px] items-center justify-center flex-col mt-12 md:py-10"
+      className="container-full mx-auto flex px-5 py-24 items-center justify-center flex-col mt-12 md:py-10"
       alt="banner house image"
       style={{
         backgroundImage: `url(${bannerImage})`,
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
