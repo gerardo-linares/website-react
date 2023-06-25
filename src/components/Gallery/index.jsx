@@ -1,5 +1,5 @@
 import React from "react";
-
+//PASAR A WEBP TODAS LAS IMAGENES//
 const Gallery = () => {
   return (
     <section className="text-gray-600 body-font mt-5" id="Nosotros">
