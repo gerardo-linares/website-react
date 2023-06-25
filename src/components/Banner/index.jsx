@@ -6,7 +6,7 @@ const Banner = () => {
       className="container-full mx-auto flex px-5 py-24 h-[500px] items-center justify-center flex-col mt-12 md:py-10"
       alt="banner house image"
       style={{
-        backgroundImage: "url(./src/assets/banner.webp)",
+        backgroundImage: "url(/banner.webp)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
