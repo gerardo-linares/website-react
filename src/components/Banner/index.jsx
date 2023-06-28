@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="container-full mx-auto ">
       <div
         alt="imagen de la casa"
-        className="bg-cover bg-center bg-fixed h-[400px]  flex justify-center items-center"
+        className="bg-no-repeat bg-center bg-fixed h-[400px]  flex justify-center items-center"
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className="text-center w-full">
