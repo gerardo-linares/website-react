@@ -3,10 +3,10 @@ import bannerImage from "../../assets/banner.jpg";
 
 const Banner = () => {
   return (
-    <section className="container-full mx-auto ">
+    <section className=" max-w-[1440px] mx-auto ">
       <div
         alt="imagen de la casa"
-        className="bg-no-repeat bg-center bg-fixed h-[400px] bg-cover  flex justify-center items-center relative"
+        className="bg-no-repeat bg-center bg-fixed h-[400px] bg-cover flex justify-center items-center relative"
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div className="text-center w-full">
