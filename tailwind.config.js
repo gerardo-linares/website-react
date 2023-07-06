@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         slogan: ['"Great Vibes"', "cursive"],
       },
+      backgroundImage: {
+        banner: 'url("./assets/banner.jpg")',
+      },
     },
   },
   plugins: [],
