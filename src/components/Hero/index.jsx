@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 const Hero = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 500,
       offset: 200,
     });
   }, []);
@@ -20,8 +20,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        data-aos="fade"
-        data-aos-duration="1000"
+        playsInline
       >
         <source src="./videoooo.mp4" type="video/mp4" />
         Tu navegador no admite la reproducción de video.
@@ -29,7 +28,7 @@ const Hero = () => {
       <div
         className="text-center w-full z-10"
         data-aos="fade-right"
-        data-aos-delay="200"
+        data-aos-delay="300"
       >
         <h1 className=" text-white font-slogan text-5xl md:text-7xl">
           "Trate con Profesionales"

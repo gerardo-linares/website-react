@@ -20,7 +20,7 @@ function App() {
     // Simulate a delay for demonstration purposes
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
